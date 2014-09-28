@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <string name="vitamio_init_decoders">正在初始化，请稍等…</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.</string>
+    <string name="VideoView_error_title">播放失败，请稍后重试</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">该视频为无效的视频播放流</string>
+    <string name="VideoView_error_text_unknown">对不起，该视频无法播放</string>
+    <string name="VideoView_error_button">确认</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
+    <string name="app_name">视频神器</string>
+    <string name="app_key">531aff2056240b08070ba03c</string>
+    <string name="action_item1">系统公告</string>
+    <string name="action_item2">常见问题及解决</string>
+    <string name="action_item3">清空图片缓存</string>
+    <string name="action_item4">检查更新</string>
+    <string name="action_item5">关于我们</string>
+    <string name="action_item6">免责声明</string>
+    <string name="about_content">"菠萝视频是一款专门为android用户打造的集搜索，播放，缓存为一体的追剧神器。
+
+ 通过菠萝视频，用户可以方便快捷的搜索到优酷、土豆、爱奇艺、乐视等各大视频门户网站的电视剧资源。 用户可以在搜索结果中选择视频来源站点，并由用户根据自己的网络情况选择播放或者缓存影视资源，为用户打造全新的追剧体验。
+
+
+ 联系方式：biz@boluo-inc.com"</string>
+    <string name="about_bottom">Copyright © 2013-2014 菠萝视频 版权所有</string>
+    <string name="disc_content">在使用菠萝视频（以下简称本应用）前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用本应用，但如果您使用本应用，您的使用行为将被视为对本声明全部内容的认可。本应用中的视频内容均为非人工检索方式、根据您键入或选择的关键字自动生成到第三方网页的链接，除本应用注明之服务条款外，其他一切因使用本应用而可能遭致的意外、疏忽、侵权及其造成的损失（包括因下载被搜索链接到的第三方网站内容而感染电脑病毒），本应用对其概不负责，亦不承担任何法律责任。任何通过使用本应用而搜索链接到的第三方网页均系他人制作或提供，您可能从该第三方网页上获得视频及享用服务，本应用对其合法性概不负责，亦不承担任何法律责任。本应用搜索结果根据您键入或选择的关键字自动搜索获得并生成，不代表本应用赞成被搜索链接到的第三方网页上的内容或立场。您应该对使用搜索引擎的结果自行承担风险。本应用不做任何形式的保证：不保证搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用本应用，本应用不承担任何法律责任。本应用尊重并保护所有使用本应用用户的个人隐私权，您注册的用户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，本应用不会主动地泄露给第三方。本应用提醒您：您在使用搜索引擎时输入的关键字将不被认为是您的个人隐私资料。任何网站如果不想被本应用（即不被搜索到），应该及时向本应用反映，或者在其网站页面中根据拒绝蜘蛛协议（Robots Exclusion Protocol）加注拒绝收录的标记，否则，本应用将依照惯例视其为可收录网站。任何单位或个人认为通过本应用搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。本应用在收到上述法律文件后，将会依法尽快断开相关链接内容。</string>
+    <string name="string_http_data_nonet">网络错误，请启用数据网络</string>
+    <string name="string_http_data_notstablenet">网络连接错误，请稍后再试</string>
+    <string name="string_http_data_connent_timeout">网络连接超时，请稍后再试</string>
+    <string name="string_http_data_user_nocheck">用户验证失败，请重新登录</string>
+    <string name="string_http_data_url_error">服务器地址错误</string>
+    <string name="string_http_data_fail">数据解析失败，请检查当前网络状态</string>
+    <string name="string_nonet_for_microinter">当前没有网络连接，请检查设置</string>
+    <string name="string_url_illeagle">网络链接地址不合法</string>
+    <string name="string_may_more_data">未获得新数据，可点击重试</string>
+    <string name="release_to_refresh_pull_label">松开立即刷新</string>
+    <string name="string_refreshing">载入中...</string>
+    <string name="string_update_time">上次更新于%s</string>
+    <string name="string_update_time_first">上次更新于</string>
+    <string name="loading_more">加载更多</string>
+    <string name="loading_wait">正在获取更多...</string>
+    <string name="loading_error">点击加载更多</string>
+    <string name="loading_ondata">没有更多了</string>
+    <string name="string_addmore">加载更多</string>
+    <string name="string_adding">加载中...</string>
+    <string name="list_empty">暂无数据</string>
+    <string name="list_retry">重新加载</string>
+    <string name="list_error">数据加载失败</string>
+    <string name="video_detail_name">视频详情页</string>
+    <string name="tv_detailHeader_des">简介</string>
+    <string name="tv_empty_data">暂无数据</string>
+    <string name="tv_video_source">播放来源:</string>
+    <string name="tv_detail_movieplay">立即播放</string>
+    <string name="tv_detail_likeDes">猜你喜欢</string>
+    <string name="tv_detail_footerDes">剧集</string>
+    <string name="tv_detail_fav">取消收藏</string>
+    <string name="tv_detail_unfav">加入收藏</string>
+    <string name="tv_detail_download">下载</string>
+    <string name="tv_siteitem_rate">速度</string>
+    <string name="tv_siteitem_quality">质量</string>
+    <string name="tv_siteitem_des">(推荐)</string>
+    <string name="tv_siteitem_retedes">高速</string>
+    <string name="details_ms" formatted="false">%1$02d:%2$02d</string>
+    <string name="details_hms" formatted="false">%1$d:%2$02d:%3$02d</string>
+    <string name="loading_video">正在载入视频…</string>
+    <string name="resume_playing_title">继续播放视频</string>
+    <string name="resume_playing_message">从 %s 开始继续播放？</string>
+    <string name="resume_playing_resume">继续播放</string>
+    <string name="resume_playing_restart">重新开始</string>
+    <string name="loading">正在加载</string>
+    <string name="play_refresh">刷新</string>
+    <string name="play_download">下载</string>
+    <string name="str_search_title">热门搜索</string>
+    <string name="str_download_add">已添加到下载队列!</string>
+    <string name="str_download_rate">速度：</string>
+    <string name="str_download_wait">等待中</string>
+    <string name="str_download_size">视频大小：</string>
+    <string name="str_download_select" />
+   
+    <string name="recommend">推荐</string>
+    <string name="sort">分类</string>
+    <string name="search">搜索</string>
+    <string name="profile">个人中心</string>
+    <string name="begin_search">请输入影片名、主演或者导演</string>
+    <string name="more_search_input_invalid">输入无效</string>
+    <string name="none_network">无可用网络，请确认WLAN、3G、2G\n至少一项可用</string>
+    <string name="change_hot_word">换一批</string>
+    <string name="clear">清除</string>
+    <string name="search_history">搜索历史</string>
+    <string name="offline_cache">离线缓存</string>
+    <string name="get_score">获取积分</string>
+    <string name="my_score">我的积分:%d</string>
+    <string name="play_history">播放历史</string>
+    <string name="personal_collection">个人收藏</string>
+    <string name="clear_cache_image">清空缓存图片</string>
+    <string name="cache_only_wifi">仅在Wifi下缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="feature_area">特色专区</string>
+    <string name="brief">内容简介</string>
+    <string name="drama">剧集列表</string>
+    <string name="clear_cache_conform">确认清除缓存吗？</string>
+    <string name="filter_video">筛选</string>
+    <string name="search_num">搜到了%1$d个视频内容</string>
+    <string name="edit">编辑</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="collection">加入收藏</string>
+    <string name="cancel_collection">取消收藏</string>
+    <string name="copyright">版权声明</string>
+    <string name="check_update">检查更新</string>
+    <string name="copyright_text">\t\t在使用"视频神器"（以下简称本应用）前，请您务必仔细阅读并透彻理解本声明。\n
+\t\t您可以选择不使用本应用，但如果您使用本应用，您的使用行为将被视为对本声明全部内容的认可。\n
+\t\t本应用中的视频内容均为非人工检索方式、根据您键入或选择的关键字自动生成到第三方网页的链接，除本应用注明之服务条款外，其他一切因使用本应用而可能遭致的意外、疏忽、侵权及其造成的损失（包括因下载被搜索链接到的第三方网站内容而感染电脑病毒），本应用对其概不负责，亦不承担任何法律责任。\n
+\t\t任何通过使用本应用而搜索链接到的第三方网页均系他人制作或提供，您可能从该第三方网页上获得视频及享用服务，本应用对其合法性概不负责，亦不承担任何法律责任。本应用搜索结果根据您键入或选择的关键字自动搜索获得并生成，不代表本应用赞成被搜索链接到的第三方网页上的内容或立场。您应该对使用搜索引擎的结果自行承担风险。\n
+\t\t本应用不做任何形式的保证：不保证搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用本应用，本应用不承担任何法律责任。\n
+
+\t\t本应用尊重并保护所有使用本应用用户的个人隐私权，您注册的用户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，本应用不会主动地泄露给第三方。\n
+\t\t本应用提醒您：您在使用搜索引擎时输入的关键字将不被认为是您的个人隐私资料。任何网站如果不想被本应用（即不被搜索到），应该及时向本应用反映，或者在其网站页面中根据拒绝蜘蛛协议（Robots Exclusion Protocol）加注拒绝收录的标记，否则，本应用将依照惯例视其为可收录网站。任何单位或个人认为通过本应用搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。\n
+\t\t本应用在收到上述法律文件后，将会依法尽快断开相关链接内容。\n
+\t\t联系方式：2806183542@qq.com</string>
+    <string name="cache_size">%1$dB/</string>
+    <string name="total_size">%1$dB</string>
+    <string name="cache_speed">%1$sK/S</string>
+    <string name="download_queued">等待</string>
+    <!--
+         Status indicating that the system is currently downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11]
+    -->
+    <string name="download_running">正在缓存</string>
+    <!--
+         Status indicating that the system pauses downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11]
+    -->
+    <string name="download_paused">暂停</string>
+    <!--
+         Status indicating that the download has completed successfully. Appears for an individual
+         item in the download list.  [CHAR LIMIT=11]
+    -->
+    <string name="download_success">缓存成功</string>
+    <!--
+         Status indicating that the download has ended without completing successfully.  Appears for
+         an individual item in the download list.  [CHAR LIMIT=11]
+    -->
+    <string name="download_error">缓存失败</string>
+    <!--
+    This is the title that is used when displaying the notification
+    for a download that doesn't have a title associated with it.
+    -->
+    <string name="download_unknown_title">&lt;Untitled&gt;</string>
+
+    <!--
+         When there are multiple simultaneous outstanding downloads from a
+        single application, they are displayed as a single notification,
+        and the expanded notification view displays the first two download
+        names separated with this string, i.e. "[title], [title]"
+        or "[title], [title] and [n] more". This is the comma + space
+        that separates the first two titles, and it's used both when there
+        are exactly two and more than two titles.
+    -->
+    <string name="notification_filename_separator">", "</string>
+
+    <!--
+         When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace.
+    -->
+    <string name="notification_download_complete">Download complete</string>
+    <string name="notification_filename_extras">" and %d more"</string>
+
+    <!--
+         When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace.
+    -->
+    <string name="notification_download_failed">Download unsuccessful</string>
+
+    <!--
+         When a download is paused because it's too large to download over a
+        mobile connection, and Wi-Fi is unavailable, this string is displayed in
+        the system notification for the running download, beneath the download
+        title and description.  Note that such a download could have been
+        initiated by a variety of applications, including (but not limited to)
+        the browser, an email application, a content marketplace.
+        [CHAR LIMIT=24]
+    -->
+    <string name="notification_need_wifi_for_size">Download size requires Wi-Fi</string>
+
+    <!-- Text for button to queue a download to start next time Wi-Fi is available [CHAR LIMIT=25] -->
+    <string name="button_queue_for_wifi">Queue</string>
+
+    <!--
+         Text for button to cancel a download because it's too large to proceed over the mobile
+         network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25]
+    -->
+    <string name="button_cancel_download">Cancel</string>
+
+    <!--
+         Text for button to start a download over the mobile connection now, even though it's over
+         the carrier-specified recommended maximum size for downloads over the mobile connection
+         [CHAR LIMIT=25]
+    -->
+    <string name="button_start_now">Start now</string>
+
+    <!--
+        Title for dialog when a download exceeds the carrier-specified maximum size of downloads
+        over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
+        download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
+        LIMIT=50]
+    -->
+    <string name="wifi_required_title">Download too large for operator network</string>
+
+    <!--
+         Text for dialog when a download exceeds the carrier-specified maximum size of downloads
+        over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
+        download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
+        LIMIT=200]
+    -->
+    <string name="wifi_required_body">You must use WiFi to complete this %s download</string>
+
+    <!--
+         Title for dialog when a download exceeds the carrier-specified recommended maximum size of
+        downloads over the mobile network, and the user may choose to start the download over mobile
+        anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
+        LIMIT=50]
+    -->
+    <string name="wifi_recommended_title">Queue for download later?</string>
+
+    <!--
+         Text for dialog when a download exceeds the carrier-specified recommended maximum size of
+        downloads over the mobile network, and the user may choose to start the download over mobile
+        anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
+        LIMIT=200]
+    -->
+    <string name="wifi_recommended_body">Starting this %s download now may shorten your battery life and/or result in
+        excessive usage of your mobile data connection, which can lead to charges by
+        your mobile operator depending on your data plan</string>
+    <string name="permlab_downloadManager">Access download manager.</string>
+    <!--
+         This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to the Download Manager by
+        applications that initiate downloads.
+    -->
+    <string name="permdesc_downloadManager">Allows the application to
+        access the download manager and to use it to download files.
+        Malicious applications can use this to disrupt downloads and access
+        private information.</string>
+
+    <!--
+         This is the short description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to some advanced (and
+        dangerous) features from the Download Manager that are needed by
+        system applications but aren't necessary for regular applications
+        that just initiate plain downloads.
+    -->
+    <string name="permlab_downloadManagerAdvanced">Advanced download
+        manager functions.</string>
+    <!--
+         This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to some advanced (and
+        dangerous) features from the Download Manager that are needed by
+        system applications but aren't necessary for regular applications
+        that just initiate plain downloads.
+    -->
+    <string name="permdesc_downloadManagerAdvanced">Allows the application to
+        access the download manager\'s advanced functions.
+        Malicious applications can use this to disrupt downloads and access
+        private information.</string>
+    <string name="permlab_downloadCompletedIntent">Send download
+        notifications.</string>
+    <!--
+         This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission allows an application to tell other
+        applications that their downloads have completed.
+    -->
+    <string name="permdesc_downloadCompletedIntent">Allows the application
+        to send notifications about completed downloads. Malicious applications
+        can use this to confuse other applications that download
+        files.</string>
+
+    <!--
+    The label for the permission to download files to the download cache
+    that can't be automatically deleted by the download manager to free up
+    space [CHAR LIMIT=50]
+    -->
+    <string name="permlab_downloadCacheNonPurgeable">Reserve space in the
+    download cache</string>
+    <!--
+    The full sentence description for the permission to download files to
+    the download cache that can't be automatically deleted by the download
+    manager to free up space [CHAR LIMIT=160]
+    -->
+    <string name="permdesc_downloadCacheNonPurgeable">Allows the application to
+    download files to the download cache which cannot be automatically deleted
+    when the download manager needs more space.</string>
+
+    <!--
+    The label for the permission to access all downloads in the download
+    manager, not just those owned by the calling user [CHAR LIMIT=50]
+    -->
+    <string name="permlab_accessAllDownloads">Access all system
+    downloads</string>
+
+    <!--
+    The full sentence description for the permission to access all
+    downloads in the download manager, not just those owned by the calling user
+    [CHAR LIMIT=160]
+    -->
+    <string name="permdesc_accessAllDownloads">Allows the application to view
+    and modify all initiated by any application on the system.</string>
+    
+    
+     <string name="download_title" msgid="2470985874255839247">"下载内容"</string>
+    <string name="no_downloads" msgid="1029667411186146836">"无下载内容。"</string>
+    <string name="missing_title" msgid="830115697868833773">"&lt;未知>"</string>
+    <string name="download_menu_sort_by_size" msgid="2276438658769422878">"按大小排序"</string>
+    <string name="download_menu_sort_by_date" msgid="4300882048968609945">"按时间排序"</string>
+    <string name="dialog_title_not_available" msgid="4479021195995400471">"下载失败"</string>
+    <string name="dialog_failed_body" msgid="587545111677064427">"您想要稍后重新尝试下载该文件，还是将其从队列中删除？"</string>
+    <string name="dialog_running_body">您想要暂停下载文件，还是取消下载？</string>
+    <string name="dialog_paused_body">您想要继续下载该文件，还是将其从队列中删除？</string>
+    <string name="dialog_title_queued_body" msgid="3062862079904954824">"文件尚不可用"</string>
+    <string name="dialog_queued_body" msgid="2506935748423351902">"该文件已加入队列，供以后下载。"</string>
+    <string name="dialog_file_missing_body" msgid="2783781332668129395">"未找到已下载的文件。"</string>
+    <string name="dialog_insufficient_space_on_external" msgid="7534108515812329821">"无法完成下载，外部存储器的空间不足。"</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="8387210487235302129">"无法完成下载，内部下载存储器的空间不足。"</string>
+    <string name="dialog_cannot_resume" msgid="7704082031608361756">"下载中断，无法继续进行。"</string>
+    <string name="dialog_file_already_exists" msgid="2663737850617642888">"无法下载，目标文件已存在。"</string>
+    <string name="dialog_media_not_found" msgid="5308602145105720991">"无法下载，未安装外部媒体。"</string>
+    <string name="download_no_application_title" msgid="3501359021635168387">"无法打开文件"</string>
+    <string name="remove_download" msgid="6372920256257247857">"清除"</string>
+    <string name="delete_download" msgid="76629022653866471">"删除"</string>
+    <string name="pause_download">暂停</string>
+    <string name="resume_download">继续</string>
+    <string name="keep_queued_download" msgid="5144882786014818569">"保留"</string>
+    <string name="cancel_running_download" msgid="5232704030969221112">"取消"</string>
+    <string name="retry_download" msgid="7617100787922717912">"重试"</string>
+    <string name="deselect_all" msgid="5638030443515705047">"清除所选项"</string>
+    
+    <string name="umeng_example_home_btn_analytics">Analytics</string>
+    <string name="umeng_example_home_btn_xp">XP</string>
+    <string name="umeng_example_home_btn_ad">Ads</string>
+    <string name="umeng_example_home_btn_tools">Tools</string>
+    <string name="umeng_example_home_btn_fb">Feedback</string>
+    <string name="umeng_example_home_btn_update">Update</string>
+    <string name="umeng_example_home_btn_xp_ufp">Umeng For Publisher</string>
+    <string name="umeng_example_xp_home_btn_container">Container</string>
+    <string name="umeng_example_xp_home_btn_banner">Banner</string>
+    <string name="umeng_example_xp_home_btn_banner_ufp">"Banner\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_handler">Handler</string>
+    <string name="umeng_example_xp_home_btn_handler_ufp">"Handler\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_tab">Multi-Pages</string>
+    <string name="umeng_example_xp_home_btn_wap">WebView</string>
+    <string name="umeng_example_xp_home_btn_custom">Custom</string>
+    <string name="umeng_example_xp_home_btn_wap_ufp">"WebView\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_push_header">Push AD\n(UFP)</string>
+    <string name="umeng_example_xp_home_btn_textlink">Text Link</string>
+    <string name="umeng_example_xp_home_btn_container_header">LargeImage</string>
+    <string name="umeng_example_xp_home_handler_icons">Icons \n(UFP)</string>
+    <string name="umeng_example_fb_home_btn_simple">Simple Demo</string>
+    <string name="actionbar_activity_not_found">Failed to open intent&#8230;</string>
+    <string name="umeng_example_home_hint_wait">Coming soooooon</string>
+    <string name="intro"> The webview before show js call Umeng Analytics APIs</string>
+    <string name="vip_score_text">VIP(%d积分)</string>
+
+</resources>

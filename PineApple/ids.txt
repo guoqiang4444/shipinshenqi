@@ -1,0 +1,38 @@
+{ "iClassifyType": 1, "vInfo": [
+{ "iClassifyId": 0, "sClassifyName": "全部" },
+{ "iClassifyId": 116, "sClassifyName": "动画" },
+{ "iClassifyId": 103, "sClassifyName": "喜剧" },
+{ "iClassifyId": 106, "sClassifyName": "恐怖" },
+{ "iClassifyId": 110, "sClassifyName": "悬疑" },
+{ "iClassifyId": 102, "sClassifyName": "动作" },
+{ "iClassifyId": 107, "sClassifyName": "科幻" },
+{ "iClassifyId": 101, "sClassifyName": "爱情" }, 
+{ "iClassifyId": 105, "sClassifyName": "犯罪" },
+{ "iClassifyId": 117, "sClassifyName": "短片" },
+{ "iClassifyId": 104, "sClassifyName": "战争" },
+{ "iClassifyId": 112, "sClassifyName": "其他" }, ] },
+
+{ "iClassifyType": 2, "vInfo": [
+{ "iClassifyId": 0, "sClassifyName": "全部" },
+{ "iClassifyId": 105, "sClassifyName": "香港" },
+{ "iClassifyId": 101, "sClassifyName": "美国" },
+{ "iClassifyId": 104, "sClassifyName": "韩国" },
+{ "iClassifyId": 107, "sClassifyName": "大陆" },
+{ "iClassifyId": 102, "sClassifyName": "英国" },
+{ "iClassifyId": 106, "sClassifyName": "台湾" },
+{ "iClassifyId": 103, "sClassifyName": "日本" },
+{ "iClassifyId": 108, "sClassifyName": "其他" } ] },
+
+{ "iClassifyType": 3, "vInfo": [
+{ "iClassifyId": 0, "sClassifyName": "全部" },
+{ "iClassifyId": 2014, "sClassifyName": "2014" },
+{ "iClassifyId": 2013, "sClassifyName": "2013" },
+{ "iClassifyId": 2012, "sClassifyName": "2012" },
+{ "iClassifyId": 2011, "sClassifyName": "2011" },
+{ "iClassifyId": 2010, "sClassifyName": "2010" },
+{ "iClassifyId": 2009, "sClassifyName": "2009" },
+{ "iClassifyId": 2008, "sClassifyName": "2008" },
+{ "iClassifyId": 2007, "sClassifyName": "2007" },
+{ "iClassifyId": 2006, "sClassifyName": "2006" },
+{ "iClassifyId": -1, "sClassifyName": "其他" }
+ 

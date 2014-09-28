@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="你好，这是个三三寻"
+        android:maxEms="7"
+        android:minWidth="48dip"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textColor="@color/cl_normal_black"
+        android:background="@color/cl_normal_white"
+        />
+    <ImageView 
+        android:id="@+id/coner_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/offline_corner"
+        android:visibility="gone"
+        />
+</FrameLayout>

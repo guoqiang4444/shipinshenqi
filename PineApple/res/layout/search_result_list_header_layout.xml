@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/search_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:textColor="@color/cl_normal_black"
+        android:layout_marginTop="6dip" />
+
+    <include layout="@layout/video_detail_layout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/cl_normal_gray" />
+
+    <TextView
+        android:id="@+id/view_more"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="4dip"
+        android:background="#8fd0d0d0"
+        android:gravity="center"
+        android:text="点击查看更多" />
+
+</LinearLayout>

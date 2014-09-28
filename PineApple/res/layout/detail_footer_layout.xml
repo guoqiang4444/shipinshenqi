@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_detialFooter_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:minHeight="80.0dip" >
+
+    <TextView
+        android:id="@+id/tv_footer_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_gravity="top"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/cl_Line" />
+
+    <com.boluoApp.boluotv.view.LoadingStatus
+        android:id="@+id/footer_loadstatus"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="11.0dip"
+        android:background="@color/cl_normal_background" />
+
+</FrameLayout>

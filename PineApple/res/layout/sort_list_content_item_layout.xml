@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id="@+id/item_layout"
+        style="@style/bar_with_statue_middle_style" >
+
+        <TextView
+            android:id="@+id/sort_text"
+            style="@style/text_with_statue_title"
+            />
+
+        <Button style="@style/btn_arrow_style" />
+    </RelativeLayout>
+
+</LinearLayout>

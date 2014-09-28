@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/video_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dip" >
+
+        <com.lzc.pineapple.volley.toolbox.NetworkImageView
+            android:id="@+id/cover"
+            android:layout_width="80dip"
+            android:layout_height="120dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_cover" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cover"
+            android:layout_alignTop="@+id/cover"
+            android:layout_marginLeft="6dip"
+            android:layout_toRightOf="@+id/cover"
+            android:orientation="vertical"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="视频名称"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/update_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="更新至8集"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/staring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="主演"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/director"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="导演"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

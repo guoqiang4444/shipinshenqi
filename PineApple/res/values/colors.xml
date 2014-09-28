@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="cl_media_white">#ffffffff</color>
+    <color name="cl_normal_black">#ff333333</color>
+    <color name="cl_gen_black">#ff000000</color>
+    <color name="cl_normal_gray">#ff999999</color>
+    <color name="cl_normal_tab">#ffcccccc</color>
+    <color name="cl_normal_white">#ffffffff</color>
+    <color name="cl_normal_background">#fff0f0f0</color>
+    <color name="cl_t_background">#80ffffff</color>
+    <color name="cl_Line">#ffd2d2d2</color>
+    <color name="cl_title_normal">#ff999999</color>
+    <color name="cl_moive_score">#ffff9900</color>
+    <color name="play_prepare_bg">#fff6f7f2</color>
+    <color name="cl_normal_yellow">#ffff9933</color>
+    <color name="cl_normal_ayellow">#ffff9933</color>
+  
+    
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+</resources>

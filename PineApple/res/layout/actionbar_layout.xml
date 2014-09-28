@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/ib_actionBar_back"
+        android:layout_width="47.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:background="@drawable/abar_back_select"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_actionBar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="middle"
+        android:maxWidth="200.0dip"
+        android:singleLine="true"
+        android:textColor="@color/cl_title_normal"
+        android:textSize="20.0sp" />
+
+    <Button
+        android:id="@+id/ib_actionBar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:background="@null"
+        android:text="编辑"
+        android:textColor="@color/cl_normal_white"
+        android:textSize="15.0sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

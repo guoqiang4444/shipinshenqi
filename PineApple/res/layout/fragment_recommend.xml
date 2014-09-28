@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cl_normal_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/bg_tabbar"
+        android:gravity="center"
+        android:text="@string/recommend"
+        android:textColor="@color/cl_normal_white"
+        android:textSize="18sp" />
+
+    <com.lzc.pineapple.widget.pulltorefresh.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ExpandableListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+    </com.lzc.pineapple.widget.pulltorefresh.SwipeRefreshLayout>
+
+    <include
+        layout="@layout/empty_layout"
+        android:visibility="gone" />
+
+</LinearLayout>

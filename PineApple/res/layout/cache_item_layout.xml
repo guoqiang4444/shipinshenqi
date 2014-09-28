@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/video_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dip" >
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="100dip"
+            android:layout_height="140dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_cover" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cover"
+            android:layout_alignTop="@+id/cover"
+            android:layout_marginLeft="6dip"
+            android:layout_toRightOf="@+id/cover"
+            android:orientation="vertical"
+            android:weightSum="5" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="视频名称"
+                android:textColor="@color/cl_normal_black"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2" >
+
+                <RelativeLayout
+                    android:id="@+id/left_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/cache_status_image" >
+
+                    <TextView
+                        android:id="@+id/cache_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cache_size" />
+
+                    <TextView
+                        android:id="@+id/total_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/cache_size"
+                        android:layout_alignTop="@+id/cache_size"
+                        android:layout_toLeftOf="@+id/cache_speed"
+                        android:layout_toRightOf="@+id/cache_size"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/total_size" />
+
+                    <TextView
+                        android:id="@+id/cache_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/cache_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/cache_size"
+                        android:text="@string/total_size" />
+                    
+                    <ProgressBar 
+                        android:id="@+id/progress_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cache_size"
+                        android:max="100"
+                        android:progress="50"
+                        android:maxHeight="10dp"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        
+                        />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/cache_status_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/btn_download_start_selector"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/cache_status"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="缓存状态"
+                android:textColor="@color/cl_normal_black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/source_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="来源: "
+                android:textColor="@color/cl_normal_black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

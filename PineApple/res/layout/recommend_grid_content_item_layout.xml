@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/cover_layout"
+        android:layout_width="match_parent"
+        android:layout_height="138dip"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_cover" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_gravity="bottom"
+            android:background="#80a2a2a2"
+            android:gravity="right|center"
+            android:paddingRight="6dip"
+            android:text="Text"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cover_layout"
+        android:layout_below="@+id/cover_layout"
+        android:layout_marginTop="4dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="#727272" />
+
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cover_layout"
+        android:layout_below="@+id/title_text"
+        android:layout_marginTop="1dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="简述"
+        android:visibility="gone"
+        android:textColor="#a2a2a2" />
+
+</RelativeLayout>

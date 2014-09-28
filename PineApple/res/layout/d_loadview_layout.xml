@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="90.0dip"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cb_dload_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/str_download_select"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.boluoApp.boluotv.view.TDImageView
+            android:id="@+id/tiv_load_img"
+            android:layout_width="90.0dip"
+            android:layout_height="80.0dip"
+            android:layout_margin="5.0dip" />
+
+        <TextView
+            android:id="@+id/tv_load_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tiv_load_img"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/tiv_load_img"
+            android:maxLines="2"
+            android:text="name"
+            android:textColor="@color/cl_normal_black"
+            android:textSize="17.0sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_load_percent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130.0dip"
+            android:layout_height="10.0dip"
+            android:layout_alignLeft="@id/tv_load_name"
+            android:layout_below="@id/tv_load_name"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/tv_load_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/pb_load_percent"
+            android:layout_marginTop="-5.0dip"
+            android:layout_toRightOf="@id/pb_load_percent"
+            android:paddingLeft="6.0dip"
+            android:text="0.0%"
+            android:textColor="@color/cl_normal_gray"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/tv_loadrate_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_load_name"
+            android:layout_below="@id/pb_load_percent"
+            android:text="@string/str_download_rate"
+            android:textColor="@color/cl_normal_gray"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/tv_load_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_load_name"
+            android:layout_below="@id/tv_loadrate_des"
+            android:text="@string/str_download_wait"
+            android:textColor="@color/cl_normal_gray"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/tv_loadrate_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_loadrate_des"
+            android:layout_toRightOf="@id/tv_loadrate_des"
+            android:textColor="@color/cl_normal_gray"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

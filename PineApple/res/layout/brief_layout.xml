@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cl_normal_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_brief_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.boluoApp.boluotv.ui.TDetailHeaderView
+                android:id="@+id/thv_briefheader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_briefView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip"
+                android:text=""
+                android:textColor="@color/cl_title_normal"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
